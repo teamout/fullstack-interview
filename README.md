@@ -1,4 +1,4 @@
-# TeamOut api interview
+# TeamOut fullstack interview
 
 ## Goal: build an API endpoint to simulate flights between cities
 
