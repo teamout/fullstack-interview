@@ -24,6 +24,12 @@ A 10 person fligth between Los Angeles and New York: (110 + 160) x 10 = $2700
 
 This repository uses [nx](https://nx.dev/) to build and run the application.
 
+Install the project dependencies
+
+```shell
+npm install
+```
+
 Install `nx` globally
 
 ```shell
