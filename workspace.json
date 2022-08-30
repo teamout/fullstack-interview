@@ -3,6 +3,8 @@
   "version": 2,
   "projects": {
     "api": "packages/api",
+    "app": "packages/app",
+    "app-e2e": "packages/app-e2e",
     "models": "packages/models"
   }
 }
