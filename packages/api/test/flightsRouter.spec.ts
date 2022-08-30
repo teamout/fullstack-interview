@@ -5,6 +5,10 @@ describe('flights router', () => {
     const { agent } = await fakeApp();
     const response = await agent.get('/flights/123');
     const data = response.body.data;
-    expect(data).toEqual('ok');
+    expect(data).toEqual({
+      id: '123',
+      model: 'Airbus A380',
+      numberOfPassengers: 525,
+    });
   });
 });
