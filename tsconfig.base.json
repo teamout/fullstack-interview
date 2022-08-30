@@ -9,15 +9,12 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "es2015",
-    "lib": ["es2017", "dom", "dom.iterable"],
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "strict": true,
-    "outDir": "./build/",
-    "module": "commonjs",
-    "types": ["node", "express", "jest"]
+    "paths": {}
   },
-  "exclude": ["node_modules", "tmp"],
-  "include": ["**/*.ts"]
+  "exclude": ["node_modules", "tmp"]
 }

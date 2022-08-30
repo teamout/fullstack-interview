@@ -1,9 +1,5 @@
-/* eslint-disable */
+import { getJestProjects } from '@nrwl/jest';
+
 export default {
-  displayName: "api",
-  transform: {
-    "^.+\\.[tj]s$": "ts-jest",
-  },
-  moduleFileExtensions: ["ts", "js", "html"],
-  roots: ["<rootDir>/test"],
+  projects: getJestProjects(),
 };
