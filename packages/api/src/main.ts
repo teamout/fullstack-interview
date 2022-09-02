@@ -1,11 +1,11 @@
-import { createApp } from "./app";
-import { Logging } from "./logging";
+import { createApp } from './app';
+import { Logging } from './logging';
 
 const { logger } = Logging;
-Logging.setLoglevel("info");
+Logging.setLoglevel('info');
 
 const app = createApp();
-const server = app.listen(3000, () => {
-  logger.info(`api listening on port 3000`);
+const server = app.listen(18008, () => {
+  logger.info(`api listening on port 18008`);
 });
-server.on("error", logger.error);
+server.on('error', logger.error);
