@@ -45,3 +45,19 @@ nx serve api
 ```shell
 nx test api
 ```
+
+## Goal: Implement a flight search engine
+
+Objective: Suggest and implement a ReactJS page to help Teamout customers look for their final destination.
+
+Context: Customers are usually debating between 3 destinations. This page will help them compare prices between each destination and make a choice on where to organize their retreat.
+
+Tips:
+* You can use any library of your choice to implement your solution.
+* You should reuse your endpoint to get fake prices between a departure and a destination.
+* You should do everything necessary for a great user experience (error management, parallel requests, clear message)
+* You can decide to implement your own design (The one provided is just an example)
+
+![ui-challenge](https://user-images.githubusercontent.com/94411526/188523166-281aebb8-3574-45f5-8457-436721853c93.png)
+
+
