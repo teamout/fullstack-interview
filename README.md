@@ -60,4 +60,12 @@ Tips:
 
 ![ui-challenge](https://user-images.githubusercontent.com/94411526/188523166-281aebb8-3574-45f5-8457-436721853c93.png)
 
+### About the tech stack
+
+`nx` can be used to start an app. The app is available in the `package` folder of this repository.
+
+```shell
+nx serve app
+```
+
 
