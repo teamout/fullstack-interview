@@ -1,6 +1,6 @@
 # TeamOut fullstack interview
 
-## Goal: build an API endpoint to simulate flights between cities
+## Backend: build an API endpoint to simulate flights between cities
 
 ### Description
 
@@ -46,7 +46,7 @@ nx serve api
 nx test api
 ```
 
-## Goal: Implement a flight search engine
+## Frontend: Implement a flight search engine
 
 Objective: Suggest and implement a ReactJS page to help Teamout customers look for their final destination.
 
